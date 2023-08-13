@@ -4,9 +4,134 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Contact</title>
+	<h1>
+		<a href="Index.html">Home</a> <a href="Tours.html">Tours</a>
+	</h1>
+	 <link rel="stylesheet" href=
+	"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />   
+	<style>
+		.fa {  
+  padding: 20px;  
+text-align: center; 
+border-radius: 50%; 
+  margin: 5px 2px;  
+  font-size: 30px;  
+  width: 50px;  
+}  
+.fa-facebook {  
+  background: #3B5998;  
+  color: white;  
+}  
+.fa-twitter {  
+  background: #55ACEE;  
+  color: white;  
+}  
+.fa-pinterest {  
+  background: #cb2027;  
+  color: white;  
+}  
+.fa-linkedin {  
+  background: #007bb5;  
+  color: white;  
+}  
+.fa-instagram {  
+  background: #125688;  
+  color: white;  
+}  
+.fa-youtube {  
+  background: #bb0000;  
+  color: white;  
+}  
+.fa-google {  
+  background: #dd4b39;  
+  color: white;  
+}  
+.fa-snapchat-ghost {  
+  background: #fffc00;  
+  color: white;  
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+}  
+.fa-skype {  
+  background: #00aff0;  
+  color: white;  
+}  
+.fa:hover {  
+    opacity: 0.9;  
+}  
+	</style>
 </head>
 <body>
-	<a href="Index.html">Home</a>
-	<a href="Tours.html">Tours</a>
+	<h1>Contact adress</h1>
+	<!-- Adding a comment -->
+	<p>Add a box with the contact adress</p>
+		<ul>
+			<h2>
+				<li>Trave NZ</li>
+				<li>119 Brookside Terrace</li>
+				<li>Bryndwr</li>
+				<li>Christchurch</li>
+				<li>8053</li>
+				<li>New Zealand</li>
+				<li>travenz@gmail.com</li>
+				<li>(0064) 0278354777</li>
+				<li>
+					<a href="tel:(0064)0278354777">click to call customer support</a>
+				</li>
+			</h2>
+			
+		</ul>
+	<br>
+	<h1>Submit a question</h1>
+	<p>Add a form to submit a question</p>
+		<div>	
+			<form>
+				First Name: <input type="text" name="Firstname" placeholder="John"><br>
+				Last Name: <input type="text" name="Lastname" placeholder="Doe"><br>
+				Email: <input type="email" name="Email" required placeholder="johndoe@gmail.com"><br>
+				Message: <input type="text" name="Message" placeholder="Enter your message"><br><br>
+				<textarea id="freeform" name="Freeform" rows="10" cols="50" maxlength="200" minlength="15" placeholder="Please enter your message here. 15 min and 200max">
+					Enter text here...
+				</textarea><br>
+				How did you hear about us?<br>
+				<input type="radio" name="Heard" value="Google">Google<br>
+				<input type="radio" name="Heard" value="Word of mouth">Word of Mouth<br>
+				<input type="radio" name="Heard" value="Facebook">Facebook<br>
+				<input type="radio" name="Heard" value="Other">Other<br><br>
+				Are you travelling with pets?<br>
+				<input type="checkbox" name="No" value="No">No
+				<input type="checkbox" name="Cat" value="Cat">Cat
+				<input type="checkbox" name="Dog" value="Dog">Dog<br><br>
+				Are you travelling with children?<br>
+				<select>
+					<option value="0" name="Zero" value="0">0 </option>
+					<option value="1" name="One" value="1">1 </option>
+					<option value="2" name="Two" value="2">2 </option>
+					<option value="3" name="Three" value="3">3 </option>
+				</select><br><br>
+				Do you want to register or use the guest log in?<br>
+				<input type="radio" name="register" value="Yes">Yes<br>
+					Enter yur password
+					<input type="password" name="password" min="5" placeholder="*****"><br>
+				<input type="radio" name="register" value="No">No<br><br>
+				<input type="submit" name="Submit" value="Enter">
+				<input type="reset" name="reset"><br>
+			</form>
+		</div>
+	<br>
+	<h1>Location Map</h1>
+	<p>Add a map with the adress - google</p>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.9879523934133!2d172.58410877730702!3d-43.50258688006191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d318b177c505f61%3A0xa80a8087a8973b60!2s119%20Brookside%20Terrace%2C%20Bryndwr%2C%20Christchurch%208053!5e0!3m2!1sen!2snz!4v1691965297021!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<br>
+	<h1>Social Media links</h1>
+	<p>Add links social media, Contact info and privacy policy</p>
+		<a href="#" class="fa fa-facebook"></a>  
+		<a href="#" class="fa fa-twitter"></a>  
+		<a href="#" class="fa fa-pinterest"></a>  
+		<a href="#" class="fa fa-linkedin"></a>  
+		<a href="#" class="fa fa-instagram"></a>  
+		<a href="#" class="fa fa-youtube"></a>  
+		<a href="#" class="fa fa-google"></a>  
+		<a href="#" class="fa fa-snapchat-ghost"></a>  
+		<a href="#" class="fa fa-skype"></a>  
 </body>
 </html>
