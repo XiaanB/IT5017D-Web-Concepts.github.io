@@ -4,33 +4,35 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Home</title>
+	<!-- <img align="left" src="D:\cb\WhiteCliffe\IT5017D Web Concepts\Assesment 2\Vs1\pictures\NZLogo.avif" width="95" height="95"> -->
+	<!-- <img align="right" src="D:\cb\WhiteCliffe\IT5017D Web Concepts\Assesment 2\Vs1\pictures\NZLogo.jpg" width="95" height="95"> -->
 	<link rel="stylesheet" href="CommonCSS.css">
 	<link rel="stylesheet" href="MainCSS.css">
 	<link rel="stylesheet" href=
 	"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-	<img align="left" src="D:\cb\WhiteCliffe\IT5017D Web Concepts\Assesment 2\Vs1\pictures\NZLogo.avif" width="95" height="95">
-	<img align="right" src="D:\cb\WhiteCliffe\IT5017D Web Concepts\Assesment 2\Vs1\pictures\NZLogo.jpg" width="95" height="95">
-	<!--  Adding a top bar.-->
-	<div class="topnav" id="myTopnav">
-	  <a href="#home" class="active">Home</a>
-	  <a href="Tours.html">Tours</a>
-	  <a href="Contact.html">Contact</a>
-	  <div class="dropdown">
-	    <button class="dropbtn">Dropdown
-	      <i class="fa fa-caret-down"></i>
-	    </button>
-	    <div class="dropdown-content">
-	      <a href="Tours.html#NI">North Island</a>
-	      <a href="Tours.html#SI">South Island</a>
-	      <a href="Tours.html#BI">Both Island</a>
-	    </div>
-	  </div>
-	  <a href="CommonJava.js" class="icon" onclick="myFunction()">&#9776;</a>
-	</div>
+	
 
 
 </head>
 <body>
+	<!--  Adding a top bar.-->
+	<div class="topnav" id="myTopnav">
+	  	<a href="Contact.html">Contact</a>
+	  	<div class="dropdown">
+	    	<button class="dropbtn">Islands
+	     	 	<i class="fa fa-caret-down"></i>
+	    	</button>
+	    <div class="dropdown-content">
+	      <a href="#">North Island</a>
+	      <a href="#">South Island</a>
+	      <a href="#">Both Island</a>
+	    </div>
+	</div>
+	<a href="Tours.html" >Tours</a>
+	<a href="Index.html"class="active">Home</a>
+	<img align="left" src="D:\cb\WhiteCliffe\IT5017D Web Concepts\Assesment 2\Vs1\pictures\NZLogo.avif" width="104" height="104">
+	<a href="CommoJava.js" class="icon" onclick="myFunction()">&#9776;</a>
+	</div><br><br>
 	<!-- Add local weather and currency converter -->
 	<!-- Adding flex box to the 2 island photos -->
 	<div class="row">
@@ -95,62 +97,8 @@
 	  <span class="dot" onclick="currentSlide(5)"></span>
 	</div>
 
-		<!-- Using CSS grid to orginize the search box -->
 
-	<div class="grid-container">
-		<div class="grid-item">	
-			<form>
-				<h2>Where would you like to travel to?</h1> 
-				<input type="radio" name="Destination" value="NorthIsland">North Island<br>
-				<input type="radio" name="Destination" value="SouthIsland">South Island<br>
-				<input type="radio" name="Destination" value="WholeNZ">Whole of NZ<br><br>
-			</form>
-		</div>
-		<div class="grid-item">
-			<form>
-				<label for="datefrom">Date from:</label>
-				<input type="date" id="datefrom" name="datefrom">
-				<label for="dateto">Date to:</label>
-				<input type="date" id="dateto" name="dateto"><br><br>
-			</form>
-		</div>
-		<div class="grid-item">
-			<form>
-				<label for="budget">Budget:</label><br>
-					<label>Same destinations, just better accomodation and travel transport</label><br>
-					<select name="budget" id="budget">
-				    	<option value="low">NZ$0-999</option>
-				    	<option value="medium">NZ$1000-2999</option>
-				    	<option value="high">NZ$3000-8000</option>
-				    	<option value="no limit">NZ$8000+</option>
-			</form>
-		</div>
-		<div class="grid-item">
-			<form>
-				<label>How many people in your party??</label> <br>
-					<select name="amoutofpeople" id="amountofpeople">
-						<option value="1" >1 </option>
-						
-			</form> -->
-		</div> 
-		<div class="grid-item">
-			<form>
-				<label for="people">People:</label><br>
-					<label>How many people in your party?</label><br>
-					<select name="budget" id="budget">
-				    	<option value="1-2">1-2</option>
-				    	<option value="3-5">3-5</option>
-				    	<option value="5-8">5-8</option>
-				    	<option value="8+">8+</option>
-			</form>
-		</div>
-		<div class="grid-item">
-			<form>
-				<input type="submit" name="Submit" value="Submit">
-				<input type="reset" name="reset"><br>
-			</form>
-		</div>
-				<!-- <form>
+				<form>
 					<h2>Where would you like to travel to?</h1> 
 					<input type="radio" name="Destination" value="NorthIsland">North Island<br>
 					<input type="radio" name="Destination" value="SouthIsland">South Island<br>
@@ -182,25 +130,36 @@
 					<input type="reset" name="reset"><br>
 				</form>
 			<br>
- -->
+ 
 	
 
 
 <!-- 	<h1>Travel tips</h1> -->
 		<div class="row1">
+
 			<div class="column1">
 				<img src="D:\cb\WhiteCliffe\IT5017D Web Concepts\Assesment 2\Vs1\pictures\staying save tips.jpg" width="342" height="342">
-				<button type="button" onclick="alert('10 Safety Tips for All Travellers\n1. Do your research\n2. Blend in with your surroundings\n3. Know how to communicate\n4. Get travel insurance\n5. Have emergency info at hand\n6. Stay save in transport\n7. Manage your money\n8. Keep track of your health\n9. Keep your belongings save\n10. Dont flash yur wealth')">Explore more</button>
 			</div>
 			<div class="column1">
 				<img src="D:\cb\WhiteCliffe\IT5017D Web Concepts\Assesment 2\Vs1\pictures\staying healthy tips.jpg" width="342" height="342">
-				<button type="button" onclick="alert('6 Healthy travel tips\n1. Prepare for travel\n2. Stay active\n3. Commit to mostly healthy food\n4. Manage your hydration\n5. Prioritize Self-Care and Rest\n6. Stay Motivatied and Accountabel')">Explore more</button>
 			</div>
 			<div class="column1">
 				<img src="D:\cb\WhiteCliffe\IT5017D Web Concepts\Assesment 2\Vs1\pictures\excercise tips.png" width="342" height="342">
+			</div>
+
+		</div>
+		<div class="row2">
+			<div class="column1">
+				<button type="button" onclick="alert('10 Safety Tips for All Travellers\n1. Do your research\n2. Blend in with your surroundings\n3. Know how to communicate\n4. Get travel insurance\n5. Have emergency info at hand\n6. Stay save in transport\n7. Manage your money\n8. Keep track of your health\n9. Keep your belongings save\n10. Dont flash yur wealth')">Explore more</button>
+			</div>
+			<div class="column1">
+				<button type="button" onclick="alert('6 Healthy travel tips\n1. Prepare for travel\n2. Stay active\n3. Commit to mostly healthy food\n4. Manage your hydration\n5. Prioritize Self-Care and Rest\n6. Stay Motivatied and Accountabel')">Explore more</button>
+			</div>
+			<div class="column1">
 				<button type="button" onclick="alert('5 Excercises you cando anywhere\n1. Safe Squads\n2. Bridge Lifts\n3. Reverse LUnge\n4. Push-ups\n5. Tri-cepts push ups')">Explore more</button><br>
 			</div>
-		</div>	
+			
+		</div>		
 
 
 	<!-- <h1>Add back to top button -->

@@ -5,9 +5,10 @@ body {
   background-size: 100% 100%;
 }
 
-h2{color: indianred;}
+h2{color: indianred; padding-top: 20}
 h3{color: orangered;}
 h4{color: blueviolet;}
+
 
 * {
   box-sizing: border-box;
@@ -84,5 +85,19 @@ h4{color: blueviolet;}
   }
 }
 
+/*Thumb prints CSS Grid*/
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3,02;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
 
