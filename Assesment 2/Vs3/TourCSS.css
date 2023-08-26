@@ -16,7 +16,7 @@ h4{color: white;}
   margin: auto;
   padding: 50 px 50 px;
   background: rgba(51,51, 51, .5);
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  /*border: 1px solid rgba(0, 0, 0, 0.5);*/
 }
 
 .container{
@@ -62,8 +62,12 @@ h4{color: white;}
 .user {
   font-family: Arial;
   margin: 0 auto; /* Center website */
+  position: relative;
   max-width: 800px; /* Max width */
   padding: 20px;
+  background: rgba(248, 168, 73, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
 }
 *
 .heading {
@@ -130,10 +134,14 @@ h4{color: white;}
   }
 }
 
+
 /*Thumb prints CSS Grid*/
 
 .grid-container {
   display: grid;
+  margin: 0 auto; /* Center website */
+  position: relative;
+  max-width: 800px; /* Max width */
   grid-template-columns: auto auto auto;
   background-color: #2196F3,02;
   padding: 10px;
@@ -145,4 +153,8 @@ h4{color: white;}
   font-size: 30px;
   text-align: center;
 }
-
+/*
+font-family: Arial;
+  padding: 20px;
+  background: rgba(248, 168, 73, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.5);*/
