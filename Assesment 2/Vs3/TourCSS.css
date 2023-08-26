@@ -143,8 +143,15 @@ h4{color: white;}
   position: relative;
   max-width: 800px; /* Max width */
   grid-template-columns: auto auto auto;
+  transition: tansform .2s;
   background-color: #2196F3,02;
   padding: 10px;
+}
+
+.grid-container:hover{
+   -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
