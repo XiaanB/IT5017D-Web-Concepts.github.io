@@ -26,18 +26,58 @@
 	</div>
 	<a href="Tours.html" >Tours</a>
 	<a href="Index.html">Home</a>
-	<img align="left" src="NZLogo.jpg" width="104" height="104">
+	<img align="left" src="NZLogo.jpg" width="104" height="104" >
 	<a href="CommoJava.js" class="icon" onclick="myFunction()">&#9776;</a>
 	</div>
 
 	<h1>.</h1>
 	<h1>.</h1>
-	<h1>Contact adress</h1>
 	<!-- Adding a comment -->
-	<p>Add a box with the contact adress</p>
-		<ul>
-			<h2>
-				<li>Trave NZ</li>
+	
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <h1>Location Map</h1>
+	<p>Add a map with the adress - google</p>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.9879523934133!2d172.58410877730702!3d-43.50258688006191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d318b177c505f61%3A0xa80a8087a8973b60!2s119%20Brookside%20Terrace%2C%20Bryndwr%2C%20Christchurch%208053!5e0!3m2!1sen!2snz!4v1691965297021!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="email">Email Adress</label><br>
+        <input type="email" name="Email" required placeholder="johndoe@gmail.com" size="118"><br><br>
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="newzealand">New Zealand</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+<hr>
+<div class="container">
+  <div style="text-align:center">
+    <h2>Rigister</h2>
+  </div>
+  <div class="row">
+    <div class="column">
+      <h1>Contact Adress</h1>
+	<li>Trave NZ</li>
 				<li>119 Brookside Terrace</li>
 				<li>Bryndwr</li>
 				<li>Christchurch</li>
@@ -48,49 +88,39 @@
 				<li>
 					<a href="tel:(0064)0278354777">click to call customer support</a>
 				</li>
-			</h2>
-			
-		</ul>
-	<br>
-	<h1>Submit a question</h1>
-	<p>Add a form to submit a question</p>
-		<div>	
-			<form>
-				<!-- Change the input boxes to trnasparent -->
-				First Name: <input type="text" name="Firstname" placeholder="John"><br>
-				Last Name: <input type="text" name="Lastname" placeholder="Doe"><br>
-				Email: <input type="email" name="Email" required placeholder="johndoe@gmail.com"><br><br>
-				<textarea id="freeform" name="Freeform" rows="10" cols="50" maxlength="200" minlength="15" placeholder="Please enter your message here. 15 min and 200max"></textarea><br><br>
-				How did you hear about us?<br>
-				<input type="radio" name="Heard" value="Google">Google<br>
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="hear">How did you hear about us?</label><br><br>
+        <input type="radio" name="Heard" value="Google">Google<br>
 				<input type="radio" name="Heard" value="Word of mouth">Word of Mouth<br>
 				<input type="radio" name="Heard" value="Facebook">Facebook<br>
 				<input type="radio" name="Heard" value="Other">Other<br><br>
-				Are you travelling with pets?<br>
-				<input type="checkbox" name="No" value="No">No
-				<input type="checkbox" name="Cat" value="Cat">Cat
-				<input type="checkbox" name="Dog" value="Dog">Dog<br><br>
-				Are you travelling with children?<br>
-				<select>
-					<option value="0" name="Zero" value="0">0 </option>
-					<option value="1" name="One" value="1">1 </option>
-					<option value="2" name="Two" value="2">2 </option>
-					<option value="3" name="Three" value="3">3 </option>
-				</select><br><br>
-				Do you want to register or use the guest log in?<br>
-				<input type="radio" name="register" value="Yes">Yes<br>
-					Enter yur password
-					<input type="password" name="password" min="5" placeholder="*****"><br>
-				<input type="radio" name="register" value="No">No<br><br>
-				<input type="submit" name="Submit" value="Enter">
-				<input type="reset" name="reset"><br>
-			</form>
-		</div>
-	<br>
-	<h1>Location Map</h1>
-	<p>Add a map with the adress - google</p>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.9879523934133!2d172.58410877730702!3d-43.50258688006191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d318b177c505f61%3A0xa80a8087a8973b60!2s119%20Brookside%20Terrace%2C%20Bryndwr%2C%20Christchurch%208053!5e0!3m2!1sen!2snz!4v1691965297021!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-	<br>
+        <label for="wpets">Are you travelling with pets?</label><br>
+        		<input type="checkbox" name="No" value="No">No<br>
+				<input type="checkbox" name="Cat" value="Cat">Cat<br>
+				<input type="checkbox" name="Dog" value="Dog">Dog<br>
+				<input type="checkbox" name="goldfish" value="goldfish">Gold Fish<br><br>
+        <label for="wkids">Are you travelling with children</label><br>
+					<select name="kids" id="kids">
+						<option value="1" name="One" value="1">1 </option><br>
+						<option value="2" name="Two" value="2">2 </option><br>
+						<option value="3" name="Three" value="3">3 </option><br>
+				    </select><br>
+
+				   
+        <label for="country">Do you want to register or use the guest log in?</label><br>
+        <input type="radio" name="register" value="Yes">Yes<br>
+		<input type="radio" name="register" value="No">No<br><br>
+        <input type="password" name="password" min="5" placeholder="*****"><br>
+        <label for="subject">Enter your password</label><br><br>
+
+		<input type="submit" name="Submit" value="Enter">
+		<input type="reset" name="reset"><br>
+      </form>
+    </div>
+  </div>
+</div>
 	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><br>
 	</h1>
 		<a href="#" class="fa fa-facebook"></a>  
