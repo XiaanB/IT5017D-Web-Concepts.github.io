@@ -4,10 +4,55 @@ body {
   background-attachment: fixed;
   background-size: 100% 100%;
 }
-
-h2{color: indianred;}
+h1{color: white}
+h2{color: white;}
 h3{color: orangered;}
-h4{color: blueviolet;}
+h4{color: white;}
+
+
+.tours {
+  max-width: 1280px;
+  position: relative;
+  margin: auto;
+  padding: 50 px 50 px;
+  background: rgba(51,51, 51, .5);
+  /*border: 1px solid rgba(0, 0, 0, 0.5);*/
+}
+
+.container{
+  position: relative;
+}
+.bottomright{
+  position: relative;
+  bottom: 8px;
+  right: -400px;
+  font-size: 18px;
+}
+
+.bottomleft{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.topleft{
+  position: relative;
+  top: 20px;
+  left: : 16px;
+  font-size: 18px;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute; 
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
 
 
 * {
@@ -17,8 +62,12 @@ h4{color: blueviolet;}
 .user {
   font-family: Arial;
   margin: 0 auto; /* Center website */
+  position: relative;
   max-width: 800px; /* Max width */
   padding: 20px;
+  background: rgba(248, 168, 73, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
 }
 *
 .heading {
@@ -85,13 +134,24 @@ h4{color: blueviolet;}
   }
 }
 
+
 /*Thumb prints CSS Grid*/
 
 .grid-container {
   display: grid;
+  margin: 0 auto; /* Center website */
+  position: relative;
+  max-width: 800px; /* Max width */
   grid-template-columns: auto auto auto;
+  transition: tansform .2s;
   background-color: #2196F3,02;
   padding: 10px;
+}
+
+.grid-container:hover{
+   -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
@@ -100,4 +160,8 @@ h4{color: blueviolet;}
   font-size: 30px;
   text-align: center;
 }
-
+/*
+font-family: Arial;
+  padding: 20px;
+  background: rgba(248, 168, 73, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.5);*/
